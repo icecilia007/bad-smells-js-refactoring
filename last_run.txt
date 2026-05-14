@@ -1,0 +1,14 @@
+
+> bad-smells-js-refactoring@1.0.0 test
+> node --experimental-vm-modules node_modules/jest/bin/jest.js
+
+(node:18651) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS tests/ReportGenerator.refactored.test.js
+PASS tests/ReportGenerator.test.js
+
+Test Suites: 2 passed, 2 total
+Tests:       10 passed, 10 total
+Snapshots:   0 total
+Time:        0.332 s, estimated 1 s
+Ran all test suites.

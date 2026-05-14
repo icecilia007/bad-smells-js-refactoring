@@ -1,0 +1,21 @@
+
+> bad-smells-js-refactoring@1.0.0 test
+> node --experimental-vm-modules node_modules/jest/bin/jest.js
+
+(node:13672) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS tests/ReportGenerator.test.js
+  ReportGenerator (Rede de Segurança)
+    ✓ deve lidar com array de itens vazio corretamente (1 ms)
+    Admin User
+      ✓ deve gerar um relatório CSV completo para Admin (2 ms)
+      ✓ deve gerar um relatório HTML completo para Admin (com prioridade) (1 ms)
+    Standard User
+      ✓ deve gerar um relatório CSV filtrado para User (apenas itens <= 500) (1 ms)
+      ✓ deve gerar um relatório HTML filtrado para User (apenas itens <= 500)
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        0.279 s, estimated 1 s
+Ran all test suites.
